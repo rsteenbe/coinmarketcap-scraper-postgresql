@@ -1,0 +1,294 @@
+CREATE TABLE bitcoin(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE ethereum(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE stratis(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE ripple(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE litecoin(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE lisk(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE eos(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE bitcoin_cash(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE cardano(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE monero(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE ethereum_classic(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE nem(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE ardor(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE steem(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE waves(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE dash(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE decred(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE pivx(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE zcash(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE ark(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
+CREATE TABLE neo(
+	price_btc double precision, 
+	price_usd double precision, 
+	daily_volume_usd double precision, 
+	market_cap_usd double precision, 
+	price_eur double precision, 
+	market_cap_eur double precision, 
+	total_supply double precision, 
+	available_supply double precision, 
+	hourly_change double precision, 
+	daily_change double precision, 
+	weekly_change double precision,
+	time_stamp timestamptz
+);
